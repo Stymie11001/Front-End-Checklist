@@ -4,8 +4,9 @@ block vars
 //- Inject all mixins to be able to call these
 include ../mixins/mixins
 
-<!-- Doctype HTML5 -->
+
 doctype html
+<!-- Doctype HTML5 -->
 html.no-js(lang=translation.SITE_LANGUAGE, dir=translation.SITE_DIRECTION)
   head
 
@@ -28,7 +29,7 @@ html.no-js(lang=translation.SITE_LANGUAGE, dir=translation.SITE_DIRECTION)
       .page-main
 
         //- The main tag is not include in the block main because repeted
-        main.s-main#js-main(role="main")
+        main.s-main#js-main
           block main
 
       .page-footer

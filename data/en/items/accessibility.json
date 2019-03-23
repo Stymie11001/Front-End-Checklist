@@ -32,7 +32,7 @@
   {
     "title": "Headings",
     "priority": "High",
-    "description": "Headings should be used properly in the right order (H1 to H6).",
+    "description": "Headings should be used properly and in the right order (H1 to H6).",
     "video": [
       {
         "title": "Why headings and landmarks are so important -- A11ycasts #18",
@@ -40,34 +40,6 @@
       }
     ],
     "tags": ["all", "best practices"]
-  },
-  {
-    "title": "Role banner",
-    "priority": "High",
-    "description": "<header> has role=\"banner\".",
-    "tags": ["all"]
-  },
-  {
-    "title": "Role navigation",
-    "priority": "High",
-    "description": "<nav> has role=\"navigation\".",
-    "tags": ["all"]
-  },
-  {
-    "title": "Role main",
-    "priority": "High",
-    "description": "<main> has role=\"main\".",
-    "documentation": [
-      {
-        "title": "Using ARIA landmarks to identify regions of a page",
-        "url": "https://www.w3.org/WAI/GL/wiki/Using_ARIA_landmarks_to_identify_regions_of_a_page"
-      },
-      {
-        "title": "ARIA roles categorization",
-        "url": "https://www.w3.org/TR/wai-aria/roles#roles_categorization"
-      }
-    ],
-    "tags": ["all"]
   },
   {
     "title": "Specific HTML5 input types are used",
@@ -112,10 +84,16 @@
     "tags": ["all", "testing"]
   },
   {
-    "title": "Screen-reader",
+    "title": "Screen reader",
     "priority": "Medium",
-    "description": "All pages were tested in a screen-reader (VoiceOver, ChromeVox, NVDA or Lynx).",
-    "tags": ["all", "testing"]
+    "description": "All pages were tested in two or more screen readers (such as JAWS, VoiceOver, and NVDA).",
+    "documentation": [
+      {
+        "title": "Screen Reader User Survey #7 Results - Primary Screen Reader",
+        "url": "https://webaim.org/projects/screenreadersurvey7/#primary"
+      }
+     ],
+     "tags": ["all", "testing"]
   },
   {
     "title": "Focus style",
